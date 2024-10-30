@@ -164,10 +164,10 @@ const NavBar: React.FC = () => {
       <div className="flex items-center gap-5 mt-4 md:mt-0">
         {userProfile && isLogin ? (
           <div className="flex flex-col md:flex-row justify-center items-center gap-2 md:gap-5">
-            <Badge count={count}>
+            {/* <Badge count={count}>
               <OrderSide />
             </Badge>
-            <MutipleLanguages />
+            <MutipleLanguages /> */}
             <Link
               href="/profile"
               passHref
