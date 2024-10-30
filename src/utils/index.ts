@@ -89,7 +89,7 @@ export function convertToStaticImport(value: string | undefined): StaticImport |
   return (value as unknown) as StaticImport;
 }
 
-export const NAME_RETAURANT : any | string = process.env.NAME_RETAURANT || 'LayRestaurant';
+export const NAME_RETAURANT : any | string = process.env.NAME_RETAURANT || 'LayHotel';
 export const LOGO : any | string = process.env.LOGO || iconPath.src;
 export const CURRENCY_UNIT: string = process.env.CURRENCY_UNIT || 'vnd';
 
