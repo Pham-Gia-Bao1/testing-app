@@ -242,7 +242,7 @@ const RoomDetail: React.FC<PropductParameters> = ({ params }) => {
           <div className="w-full sm:h-96 h-80">
             <GoogleMapEmbed />
           </div>
-          <div className="w-full my-10">
+          <div className="w-full my-10 mt-96">
             <PopularRoomsBox />
           </div>
           <div className="flex w-full items-center justify-between p-10 bg-gray-200 rounded-3xl">
