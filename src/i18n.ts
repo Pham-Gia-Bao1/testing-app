@@ -5,7 +5,7 @@ const resources = {
   en: {
     translation: {
       login: {
-        title: "Login",
+        title: "Log in",
         email: "Email",
         password: "Password",
         confirmPassword: "Confirm Password",
