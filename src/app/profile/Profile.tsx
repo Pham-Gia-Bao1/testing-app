@@ -381,10 +381,10 @@ const Profile: React.FC = () => {
                     {t("profile.viewBookingRoomHistory")}
                     <ArrowDropDownIcon />
                   </Button>
-                  <Button className="py-3 box-flex-center w-full sm:w-auto">
+                  {/* <Button className="py-3 box-flex-center w-full sm:w-auto">
                     {t("profile.viewBookingFoodHistory")}
                     <ArrowDropDownIcon />
-                  </Button>
+                  </Button> */}
                 </div>
               </div>
               <hr />
@@ -602,7 +602,7 @@ const Profile: React.FC = () => {
                 ))}
               </ul>
             </div>
-            <div className="bg-white rounded-lg p-6 mt-6">
+            {/* <div className="bg-white rounded-lg p-6 mt-6">
               <h2 className="text-xl font-bold mb-4">
                 {t("profile.bookingFoodHistory")}
               </h2>
@@ -654,7 +654,7 @@ const Profile: React.FC = () => {
                   </li>
                 ))}
               </ul>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
