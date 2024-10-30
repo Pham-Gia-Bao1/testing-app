@@ -14,7 +14,8 @@ const nextConfig = {
       "noithattugia.com",
       "hips.hearstapps.com",
       "upload.wikimedia.org",
-      "www.google.com"
+      "www.google.com",
+      "res.cloudinary.com"
     ],
   },
 };
